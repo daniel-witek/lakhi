@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Lakhi's Indian Kitchen",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/daniel-witek/lakhi.git"
+  },
+  "keywords": [
+    "lakhi",
+    "indian",
+    "restaurant",
+    "food"
+  ],
+  "author": "Daniel Witek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-witek/lakhi/issues"
+  },
+  "homepage": "https://github.com/daniel-witek/lakhi#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mariadb": "^2.5.5"
+  }
+}
